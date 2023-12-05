@@ -65,9 +65,9 @@ const updateValues = () => {
     -1
   ).toFixed(2);
 
-  balance.innerText = `${total}`;
-  incomeMoney.innerText = `${income}`;
-  expensesMoney.innerText = `${expenses}`;
+  balance.innerText = `$${total}`;
+  incomeMoney.innerText = `$${income}`;
+  expensesMoney.innerText = `$${expenses}`;
 };
 
 //Remove transaction
